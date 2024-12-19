@@ -1,0 +1,38 @@
+body {
+   font-family: "Space Mono", monospace;
+   padding: 20px;
+ }
+ table {
+   width: 100%;
+   border-collapse: collapse;
+   margin-top: 20px;
+ }
+ table, th, td {
+   border: 1px solid black;
+ }
+ th, td {
+   padding: 10px;
+   text-align: left;
+ }
+ .form-container {
+   margin-bottom: 20px;
+ }
+ button {
+   margin: 0 5px;
+ }
+ @media (max-width: 768px) {
+   h1 {
+     font-size: 1.5rem;
+   }
+   .form-container {
+     padding: 10px;
+   }
+ }
+ #task-form{
+   display:flex;
+   gap: 5px;
+   text-align:center;
+ }
+ .title{
+   float:center;
+ }
